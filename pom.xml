@@ -32,7 +32,7 @@
     <url>https://travis-ci.org/${github.org}/${github.repo}</url>
   </ciManagement>
   <properties>
-    <github.org>rchain</github.org>
+    <github.org>f1r3fly.io</github.org>
     <github.repo>secp256k1-native</github.repo>
   </properties>
     <distributionManagement>
@@ -138,7 +138,7 @@
               <phase>generate-sources</phase>
               <configuration>
                 <tasks>
-                  <mkdir dir="${project.basedir}/target/native/coop/rchain"/>
+                  <mkdir dir="${project.basedir}/target/native/io.f1r3fly"/>
                 </tasks>
               </configuration>
               <goals>
