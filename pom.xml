@@ -80,7 +80,7 @@
           <execution>
             <id>default-cli</id>
             <goals>
-              <goal>validate</goal>
+              <goal>staging-release</goal>
             </goals>
           </execution>
         </executions>
