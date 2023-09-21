@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>coop.rchain</groupId>
+  <groupId>io.f1r3fly</groupId>
   <artifactId>secp256k1-native-parent</artifactId>
   <version>0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Secp256k1 Native Library Holder</name>
   <description>Holds output of a Secp256k1 builds</description>
   <organization>
-    <name>Coop RChain</name>
-    <url>https://github.com/rchain</url>
+    <name>F1r3fly.io</name>
+    <url>https://github.com/f1r3fly</url>
   </organization>
   <licenses>
     <license>
