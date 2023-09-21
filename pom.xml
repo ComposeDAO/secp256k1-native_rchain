@@ -47,6 +47,18 @@
         <url>https://f1r3flyio.jfrog.io/artifactory/f1r3flyio-sbt-dev</url>
       </snapshotRepository>
     </distributionManagement>
+    <repositories>
+      <repository>
+        <id>central</id>
+        <url>https://repo.maven.apache.org/maven2</url>
+        <releases>
+          <enabled>true</enabled>
+        </releases>
+        <snapshots>
+          <enabled>false</enabled>
+        </snapshots>
+      </repository>
+    </repositories>
   <build>
     <plugins>
       <plugin>
